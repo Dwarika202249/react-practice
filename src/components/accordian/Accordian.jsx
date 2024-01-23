@@ -32,7 +32,7 @@ const Accordian = () => {
 
   return (
     <div className="wrapper">
-      <h1 className="project1">PROJECT 1 - ACCORDIAN</h1>
+      <h1 className="project1">PROJECT 1 - ACCORDION</h1>
       <button onClick={()=> setEnableMultiSelection(!enableMultiSelection)} className={enableMultiSelection ? "enableMulti" : "disableMulti"} >{enableMultiSelection ? "Disable Multi Selection" : "Enable Multi Selection"}</button>
       <div className="accordian">
         {data && data.length > 0 ? (
