@@ -32,7 +32,7 @@ const StarRating = ({ noOfStars = 5 }) => {
                 onClick={() => handleClick(index)}
                 onMouseMove={() => handleMouseEnter(index)}
                 onMouseLeave={() => handleMouseLeave()}
-                size={80}
+                size={120}
               />
             );
           })}
