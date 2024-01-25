@@ -10,3 +10,13 @@ An accordion is a graphical user interface (GUI) element that allows users to ex
 
 ![Accordion](src/readmeImages/accordian.png)
 
+## PROJECT 2 - RANDOM COLOR GENERATOR
+### SUMMARY : 
+The generator typically produces colors in various formats such as hexadecimal (e.g., #RRGGBB) and RGB (e.g., rgb(255, 0, 0)) It may generate completely random colors or colors within specified ranges or constraints.
+
+### FEATURES :
+- Made in Reactjs
+- The core feature is the ability to generate random colors dynamically. This includes generating colors in two formats such as hexadecimal and RGB
+
+![Accordion](src/readmeImages/random-color.gif)
+
