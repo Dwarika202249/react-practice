@@ -1,0 +1,36 @@
+
+.star-rating {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #5439A1;
+}
+
+.starContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0px;
+    color: #fff;
+}
+
+.active {
+    color: #fff700;
+    cursor: pointer;
+}
+
+.inactive {
+    color: #fff;
+    /* color: black; */
+}
