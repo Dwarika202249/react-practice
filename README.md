@@ -1,4 +1,4 @@
-# PRACTICE PROJECTS
+# PRACTICE PROJECTS IN REACTJS
 
 ## PROJECT 1 - ACCORDION
 
@@ -38,3 +38,16 @@ A star rating system on a website allows users to express their opinions or feed
 - Users typically interact with the star rating system by clicking on a set of stars to indicate their rating. The number of stars usually ranges from 1 to 5, with 1 star representing the lowest rating and 5 stars representing the highest rating.
 
 ![Accordion](src/readmeImages/star-rating.gif)
+
+## PROJECT 4 - IMAGE SLIDER
+
+### SUMMARY :
+
+An image slider, also known as a carousel or slideshow, is a user interface element commonly used on websites to display multiple images or content items in a dynamic and interactive manner.
+
+### FEATURES :
+
+- Made in Reactjs
+- Users can navigate through the images using navigation controls such as arrows buttons and image indicators.
+
+![Accordion](src/readmeImages/image-slider.gif)
