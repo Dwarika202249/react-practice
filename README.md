@@ -11,7 +11,7 @@ An accordion is a graphical user interface (GUI) element that allows users to ex
 - Made in Reactjs
 - Single selection and Multi Selection features with all dynamics using a button
 
-![Accordion](src/readmeImages/accordian.png)
+![Accordion](src/readmeImages/accordion.gif)
 
 ## PROJECT 2 - RANDOM COLOR GENERATOR
 
