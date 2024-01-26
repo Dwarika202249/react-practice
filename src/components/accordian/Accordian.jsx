@@ -32,12 +32,12 @@ const Accordian = () => {
 
   return (
     <div className="wrapper">
-      <h1 className="project1">PROJECT 1 - ACCORDION</h1>
+      <h1 className="projectheading project1">PROJECT 1 - ACCORDION</h1>
       <button onClick={()=> setEnableMultiSelection(!enableMultiSelection)} className={enableMultiSelection ? "enableMulti" : "disableMulti"} >{enableMultiSelection ? "Disable Multi Selection" : "Enable Multi Selection"}</button>
       <div className="accordian">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
-            <div className="item">
+            <div key={dataItem.id} className="item">
               <div onClick={enableMultiSelection ? ()=> handleMultiSelection(dataItem.id) : () => handleSingleSelection(dataItem.id)} className="title">
                 <h3>{dataItem.question}</h3>
                 {selected === dataItem.id || multiple.indexOf(dataItem.id) !== -1 ? <div className="sign">-</div> : <div className="sign">+</div> }
